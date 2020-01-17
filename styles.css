@@ -36,3 +36,10 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
+a {
+color: #000000;
+}
+
+a:hover{
+  color: #FAE0EE;
+}
