@@ -22,7 +22,7 @@ main {
 }
 img {
   box-shadow: 5px 5px 5px #999;
-  max-width: 15%;
+  max-width: 19%;
   float: right;
 }
 
@@ -36,6 +36,7 @@ footer {
 
 ul {
   display: inline-block;
+  font-size: 1.2em;
 }
 
 a {
