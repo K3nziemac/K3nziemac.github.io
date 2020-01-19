@@ -58,7 +58,7 @@ a:hover{
 
 #design-grid {
   display: grid;
-  grid-template-columns: repeat(1fr, 3);
+  grid-template-columns: 1fr 1fr 1fr;
   text-align: center;
   grid-gap: 10px;
   text-decoration: underline;
@@ -69,12 +69,14 @@ a:hover{
   border-radius: 10px;
   grid-column: 1;
       grid-row: 1;
+      text-align: center;
 }
 
 #design-2 {
   border: 2px solid #Ff69b4;
   border-radius: 10px;
   grid-column: 2;
+  text-align: center;
       
 }
 
