@@ -17,7 +17,7 @@ body {
 }
 main {
   background-color: white;
-  max-width: 100%;
+
   display: block;
 }
 img {
@@ -86,5 +86,18 @@ a:hover{
   grid-column: 3;
   text-align: center;
      
+}
+
+.huge{
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.bliss{
+  grid-column: 2;
+}
+
+.trailer{
+  grid-column: 3;
 }
 
