@@ -119,3 +119,129 @@ justify-content: space-evenly;
 float: left;
 }
 
+
+
+
+
+
+
+
+
+
+/*
+Preston home page*/
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+
+body {
+  font-size: 18px;
+}
+
+#wrapper {
+  padding: 0vw;
+}
+
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color:#FAE0EE;
+}
+
+.headings {
+  padding: 2vw;
+  line-height: .5em;
+  text-align: center;
+}
+
+#weather-logo {
+  width: 15vw;
+}
+
+#prestonTitle {
+  font-size: 1.8em;
+}
+
+#tagline {
+  font-size: 1em;
+}
+
+nav {
+  background-color: rgb(223, 215, 215);
+  z-index: 100;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
+
+nav ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#preston-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.area-heading {
+  line-height: 0.5em;
+  padding: 0 5vw;
+}
+
+.area-heading h1 {
+  font-size: 1.8em;
+}
+
+.area-heading h2 {
+  font-size: 1em;
+}
+
+.info {
+  border: 2px solid;
+  width: 60vw;
+  text-align: center;
+  border-radius: 8px;
+  margin: 1vw;
+}
+
+#currCon {
+  background-color:#87beec;
+}
+
+#temp {
+  background-color: yellow;
+}
+
+#precip {
+  background-color: pink;
+}
+
+#futureCond {
+  background-color: grey;
+}
+
+
+@media sreen and (min-width: 40em) {
+  
+}
+
+
+.hamburger-menu{
+  
+}
