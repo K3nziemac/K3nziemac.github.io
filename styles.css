@@ -242,6 +242,10 @@ a {
 }
 
 
-.hamburger-menu{
-  
+.hamburger-menu span{
+  background: #FAE0EE
+  width: 40px;
+  height: 5px;
+display: block;
+margin-bottom: 2px;
 }
