@@ -183,21 +183,4 @@ html {
   .change{
       display: block;
   }
-
-  /*
-Weather site 
-*/
-
-.weather-nav{
-  display: flex;
-  list-style: none;
-  justify-content: space-evenly;
-  }
-  
-  .cloud{
-    box-shadow: 5px 5px 5px #999;
-    max-width: 19%;
-  float: left;
-  }
-  
   
