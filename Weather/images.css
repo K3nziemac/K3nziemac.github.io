@@ -8,13 +8,14 @@ article img[data-src] {
   }
   
   div.pics {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+   flex-direction: column;
+    
   }
   
   div.picsbig {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     display: none;
   }
   
