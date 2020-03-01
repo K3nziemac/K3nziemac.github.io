@@ -1,100 +1,40 @@
-article img[data-src] {
-    filter: blur(0.2em);
-  }
-  
-  article img {
-    filter: blur(0em);
-    transition: filter 0.5s;
-  }
-  
-  div.pics {
-    display: flex;
-   flex-direction: column;
-    
-  }
-  
-  div.picsbig {
-    display: flex;
-    flex-direction: column;
-    display: none;
-  }
-  
-  @media screen and (min-width: 800px) {
-    div.pics {
-      display: grid;
-      grid-template-columns: 1fr;
-      display: none;
-    }
-  
-    div.picsbig {
-      display: grid;
-      grid-template-columns: 1fr;
-      
-    }
 
-    
-    /*backgroundimages*/
 
-.sunny {
-  background-image: url("/weather/images/sunny.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
+
+
+
+#pictures
+{
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
-.snowy {
-  background-image: url("/weather/images/snow.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  opacity: .90;
+
+
+.clear img 
+{
+    width: 50%;
 }
 
-.rainy {
-  background-image: url("/weather/images/rain.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  opacity: .90;
+.clouds img 
+{
+    width: 50%;
 }
 
-.cloudy {
-  background-image: url("/weather/images/cloud.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  opacity: .90;
+.fog img
+{
+    width: 50%;
 }
 
-.foggy {
-  background-image: url("/weather/images/fog.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  opacity: .90;
+.rain img
+{
+    width: 50%;
 }
 
-@media only screen and (max-width:45em) {
-  .sunny {
-      background-image: url("/weather/images/sunny-small.jpg");
-  }
-  .snowy {
-      background-image: url("/weather/images/snow-small.jpg");
-      background-repeat: no-repeat;
-      background-size: 100%;
-      opacity: .90;
-  }
-  .rainy {
-      background-image: url("/weather/images/rain-small.jpg");
-      background-repeat: no-repeat;
-      background-size: 100%;
-      opacity: .90;
-  }
-  .cloudy {
-      background-image: url("/weather/images/clouds-small.jpg");
-      background-repeat: no-repeat;
-      background-size: 100%;
-      opacity: .90;
-  }
-  .foggy {
-      background-image: url("/weather/images/fog-small.jpg");
-      background-repeat: no-repeat;
-      background-size: 100%;
-      opacity: .90;
-  }
+.snow img
+{
+    width: 50%;
 }
+
+
+

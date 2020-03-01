@@ -1,31 +1,55 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <title>MacKenzie Duke | Assignment portal</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Progressive loading of images assingnment">
     <meta name="author" content="MacKenzie Duke">
-    <meta name="description" content=" This is a weather images page for CIT 230">
-    <link rel="stylesheet" href="/images.css" />
-  </head>
-  <main>
-<header>
-    <h1> Weather Images</h1>
+    <title>Weather Images</title>
+    <link rel="stylesheet" href="images.css">
+
+  
+</head>
+<body>
+    <header>
+        <h1>Progressive Loading (Images)</h1>
     </header>
-    <div class="pics">
-        <img src="/resource/clear300.jpg"alt=clear>
-        <img src="/resource/clouds300.jpg" alt=clouds>
-        <img src="/resource/fog300.jpg" alt=fog>
-        <img src="/resource/rain300.jpg"alt=rain>
-        <img src="/resource/snow300.jpg" alt=snow>
-    
+
+    <main>
+        <div id="pictures">
+
+            <picture class="clear">
+                <source media="(min-width: 768px)" srcset="/resource/clear500.jpg">
+                <img  data-src="/resource/clear300.jpg" alt="clear">
+            </picture>
+
+            <picture class="clouds">
+                <source media="(min-width: 768px)" srcset="/resource/clouds500.jpg">
+                <img src="/resource/clouds300.jpg" data-src="/resource/clouds300.jpg" alt="clouds">
+            </picture>
+
+            <picture class="fog">
+                <source media="(min-width: 768px)" srcset="/images/fog.jpg"> 
+                <img src="/resource/fog300.jpg" data-src="/images/fog-small.jpg" alt="fog">
+            </picture>
+
+            <picture class="rain">
+                <source media="(min-width: 768px)" srcset="/images/rain.jpg">
+                <img src="/resource/rain300.jpg" data-src="/images/rain-small.jpg" alt="rain">
+            </picture>
+
+            <picture class="snow">
+                <source media="(min-width: 768px)" srcset="/images/snow.jpg">
+                <img src="/resource/snow300.jpg" data-src="/images/snow-small.jpg" alt="snow">
+            </picture>
+
         </div>
-        <div class="picsbig">
-          <img src="/resource/clear500.jpg"alt=clear>
-          <img src="/resource/clouds500.jpg" alt=clouds>
-          <img src="/resource/fog500.jpg" alt=fog>
-          <img src="/resource/rain500.jpg"alt=rain>
-          <img src="/resource/snow500.jpg" alt=snow>
-          </div>
     </main>
+
+    <footer>
+        <script src="/weather/js/weather-images.js" defer></script>
+    </footer>
+    
+</body>
 </html>
