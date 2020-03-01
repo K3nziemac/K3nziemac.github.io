@@ -30,4 +30,71 @@ article img[data-src] {
       display: grid;
       grid-template-columns: 1fr;
       
-    }}
+    }
+
+    
+    /*backgroundimages*/
+
+.sunny {
+  background-image: url("/weather/images/sunny.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.snowy {
+  background-image: url("/weather/images/snow.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  opacity: .90;
+}
+
+.rainy {
+  background-image: url("/weather/images/rain.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  opacity: .90;
+}
+
+.cloudy {
+  background-image: url("/weather/images/cloud.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  opacity: .90;
+}
+
+.foggy {
+  background-image: url("/weather/images/fog.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  opacity: .90;
+}
+
+@media only screen and (max-width:45em) {
+  .sunny {
+      background-image: url("/weather/images/sunny-small.jpg");
+  }
+  .snowy {
+      background-image: url("/weather/images/snow-small.jpg");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      opacity: .90;
+  }
+  .rainy {
+      background-image: url("/weather/images/rain-small.jpg");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      opacity: .90;
+  }
+  .cloudy {
+      background-image: url("/weather/images/clouds-small.jpg");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      opacity: .90;
+  }
+  .foggy {
+      background-image: url("/weather/images/fog-small.jpg");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      opacity: .90;
+  }
+}
