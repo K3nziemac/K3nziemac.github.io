@@ -279,6 +279,7 @@ a {
 	background-color: #FAE0EE;
   position: fixed;
   bottom: 0px;
+  /* make it this until you click on it use javascript*/
   height: 10%;
   width: 70px;
  
@@ -313,7 +314,7 @@ a {
 	opacity: 0;
 }
 .change{
-	display: block;
+	display: block !important;
 }
 
 
