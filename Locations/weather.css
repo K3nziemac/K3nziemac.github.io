@@ -104,25 +104,6 @@ a:hover{
 
 
 
-/*
-Weather site 
-*/
-
-.weather-nav{
-display: flex;
-list-style: none;
-justify-content: space-evenly;
-}
-
-.cloud{
-  box-shadow: 5px 5px 5px #999;
-  max-width: 19%;
-float: left;
-}
-
-
-
-
 
 /*
 Preston home page*/
@@ -312,7 +293,7 @@ a {
 }
 
 .change .bar {
-  background-color: #FAE0EE;
+  background-color: #Ff69b4;
 }
 
 .change #bar1 {
