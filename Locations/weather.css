@@ -604,6 +604,18 @@ z-index: -1;
       position: absolute;
       margin-bottom: 0;
   }
+
+.temp{
+width:30%;
+}
+
+.precip{
+  width:30%;
+}
+
+.futureCond{
+  width:30%;
+}
 }
 
 
